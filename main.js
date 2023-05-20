@@ -4,7 +4,7 @@ import { getTasks, addTask, editDocument } from './firebase.js'
 let tasks = []
 await renderTasks()
 
-const buttonTask = document.getElementById('create-todo')
+const buttonTask = document.getElementById('create-btn')
 buttonTask.addEventListener('click', async ()=> await handleClick())
 
 
